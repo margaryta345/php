@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <form method="post" action="auth.php">
+      <label for="login">Логін:</label>
+      <input type="text" id="login" name="login" required /><br />
+
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password" required /><br />
+
+      <input type="radio" id="loginMode" name="mode" value="login" required />
+      <label for="loginMode">Вхід</label>
+
+      <input
+        type="radio"
+        id="registerMode"
+        name="mode"
+        value="register"
+        required
+      />
+      <label for="registerMode">Реєстрація</label><br />
+
+      <button type="submit">Відправити</button>
+    </form>
+  </body>
+</html>

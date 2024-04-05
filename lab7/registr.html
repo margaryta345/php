@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <form action="Rita.php" method="post" enctype="multipart/form-data">
+      <label for="login">Логін:</label><br />
+      <input type="text" id="login" name="login" required /><br />
+      <label for="password">Пароль:</label><br />
+      <input type="password" id="password" name="password" required /><br />
+      <label for="name">Імя:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+      <label for="birthdate">Дата народження:</label><br />
+      <input type="date" id="birthdate" name="birthdate" required /><br />
+      <label for="gender">Стать:</label><br />
+      <input type="radio" id="male" name="gender" value="male" checked />
+      <label for="male">Чоловічий</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Жіночий</label><br />
+      <label for="country">Країна:</label><br />
+      <input type="text" id="country" name="country" required /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="note">Нотатки:</label><br />
+      <textarea id="note" name="note" rows="4" cols="50"></textarea><br /><br />
+      <input type="submit" value="Зарегистрироваться" />
+    </form>
+  </body>
+</html>
